@@ -37,8 +37,6 @@ If you want to run the checks on-demand (outside of git hooks), run:
 
     pre-commit run --all-files --verbose
 
-The [test harness](TESTING.md) of this git repo uses the second approach
-to run the checks on-demand.
 
 
 ## Available hooks
@@ -47,6 +45,7 @@ to run the checks on-demand.
 
 **What it does**
 
+* Check if any file with `.rb` or `.erb` extentions contain `byebug`, `binding.b` or `binding.break`
 
 ## Contributing
 
