@@ -1,0 +1,13 @@
+---
+# This file tells https://pre-commit.com/
+# which hooks are provided by this repo
+# for use by other git repos.
+
+- id: check-ruby-debug
+  name: Check ruby debug breakpoints
+  description: Check ruby files for the presence of byebug, binding.b or binding.break
+  entry: check-ruby-debug
+  language: script
+  files: '(\.rb|.erb)$'
+
+
