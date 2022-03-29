@@ -6,6 +6,6 @@
 - id: check-ruby-debug
   name: Check ruby debug breakpoints
   description: Check ruby files for the presence of byebug, binding.b or binding.break
-  entry: check-ruby-debug
+  entry: pre_commit_hooks/check-ruby-debug
   language: script
   files: '(\.rb|.erb)$'
