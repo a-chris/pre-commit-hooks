@@ -9,5 +9,3 @@
   entry: check-ruby-debug
   language: script
   files: '(\.rb|.erb)$'
-
-
