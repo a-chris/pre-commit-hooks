@@ -22,7 +22,7 @@ Git hooks to integrate with [pre-commit](http://pre-commit.com).
 
 Add to `.pre-commit-config.yaml` in your git repo:
 
-    - repo: https://github.com/jumanjihouse/pre-commit-hooks
+    - repo: https://github.com/a-chris/pre-commit-hooks
       rev: master  # or specific git tag
       hooks:
         - id: check-ruby-debug
